@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const GenAI = () =>{
-const genAI = new GoogleGenerativeAI ('AIzaSyC8vww2mh2v7QKACNd1Z0edwVci4ChJekA');
+const genAI = new GoogleGenerativeAI (process.env.REACT_GENAI_GOOGLE_API_KEY);
 const [search, setSearch] = useState('');
 const [aiResponse, setResponse] = useState('');
 const [loading, setLoading] = useState(flase);
