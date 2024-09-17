@@ -12,8 +12,6 @@ import PronunciationLessons from './components/PronunciationLessons';
 import Reports from './components/Reports';
 import English from './components/English';
 import Profile from './components/Profile';
-import Header from './components/common/header';
-import Footer from './components/common/Footer';
 import GenAI from './components/GenAI';
 
 function App() {

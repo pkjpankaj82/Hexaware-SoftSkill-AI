@@ -27,7 +27,7 @@
     <title>Hexaware Soft Skill Gen AI</title>
   </head>
   <style>
-    body {
+      body {
         background-image: url('Background.jpg'); /* Adjusted the path to assets folder */
         background-size: cover;
         background-position: center;
@@ -42,7 +42,7 @@
         align-items: center;
       }
 
-      .message {
+      #message {
         background: rgba(255, 255, 255, 0.85);
         max-width: 360px;
         padding: 32px 24px;
@@ -51,21 +51,21 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       }
 
-      .message h2 {
+      #message h2 {
         color: #ffa100;
         font-weight: bold;
         font-size: 16px;
         margin: 0 0 8px;
       }
 
-      .message h1 {
+      #message h1 {
         font-size: 22px;
         font-weight: 300;
         color: rgba(0, 0, 0, 0.6);
         margin: 0 0 16px;
       }
 
-      .message p {
+      #message p {
         line-height: 1.4;
         margin: 16px 0 24px;
         font-size: 14px;
@@ -97,21 +97,12 @@
   </style>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-    <!--  <h2>Welcome</h2>
+    <div id="root"></div>
+    <div id="message">
+      <h2>Welcome</h2>
       <h1>Hexaware soft skills</h1>
       <p>Be Ready for your Vyakaran Journey</p>
-      <a class="button" id="loginButton" href="%PUBLIC_URL%/Login">Go to Login Page</a> -->
+      <a class="button" id="loginButton" href="%PUBLIC_URL%/Login">Go to Login Page</a>
     </div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

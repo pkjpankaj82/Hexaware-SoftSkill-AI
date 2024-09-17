@@ -156,7 +156,8 @@ function Test() {
   const [selectedFilter, setSelectedFilter] = useState('Vocabulary');
   const [filteredQuestions, setFilteredQuestions] = useState(questions[selectedFilter]);
   const navigate = useNavigate(); // Hook for navigation
-
+  document.getElementById("message").style.display = "none";
+  
   useEffect(() => {
     if (timer > 0 && !isTimeUp) {
       const interval = setInterval(() => {

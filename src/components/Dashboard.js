@@ -6,6 +6,7 @@ import backgroundImage from '../components/back.jpg'; // Adjust the path to your
 import logo from '../components/logo.png'; // Adjust the path to your logo image
 
 const Dashboard = () => {
+  document.getElementById("message").style.display = "none";
   const navigate = useNavigate();
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
 

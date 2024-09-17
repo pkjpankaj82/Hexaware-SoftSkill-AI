@@ -2,6 +2,7 @@
   "name": "firebase-auth-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/pkjpankaj82/hexaware-softskill-AI",
   "dependencies": {
     "@google-cloud/aiplatform": "^3.29.0",
     "@google/generative-ai": "^0.19.0",
@@ -18,7 +19,7 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "styled-components": "^6.1.13",
     "web-vitals": "^2.1.4"
   },
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -42,6 +45,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
   }
