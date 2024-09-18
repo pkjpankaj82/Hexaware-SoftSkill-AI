@@ -1,5 +1,16 @@
 {
   "projects": {
     "default": "hexasoftskill"
-  }
+  },
+  "targets": {
+    "hexasoftskill": {
+      "hosting": {
+        "app": [
+          "hexasoftskill"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

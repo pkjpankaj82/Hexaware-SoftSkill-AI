@@ -5,17 +5,14 @@ import { useNavigate } from 'react-router-dom';
 import { FaGoogle, FaFacebookF } from 'react-icons/fa';
 import backgroundImage from '../components/Background.jpg'; // Adjust the path to your image
 
-
 const LoginPage = () => {
   document.getElementById("message").style.display = "none";
-  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [resetEmail, setResetEmail] = useState('');
   const [isResetMode, setIsResetMode] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const navigate = useNavigate();
-
 
   const showAlert = (message) => {
     alert(message);
@@ -82,7 +79,6 @@ const LoginPage = () => {
   }, []);
 
   return (
-
     <div 
       className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}

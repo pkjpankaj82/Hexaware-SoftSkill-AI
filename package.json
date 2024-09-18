@@ -2,7 +2,6 @@
   "name": "firebase-auth-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/pkjpankaj82/hexaware-softskill-AI",
   "dependencies": {
     "@google-cloud/aiplatform": "^3.29.0",
     "@google/generative-ai": "^0.19.0",
